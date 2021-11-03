@@ -1,6 +1,6 @@
 {
   "name": "@haliloncen/html2pdf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create perfect PDF from HTML string with puppeteer",
   "main": "dist/html2pdf.js",
   "scripts": {
