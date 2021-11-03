@@ -1,0 +1,32 @@
+{
+  "name": "@haliloncen/html2pdf",
+  "version": "1.0.0",
+  "description": "Create perfect PDF from HTML string with puppeteer",
+  "main": "dist/html2pdf.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haliloncen/html2pdf.git"
+  },
+  "keywords": [
+    "html2pdf",
+    "pdf-generator",
+    "html-to-pdf"
+  ],
+  "author": "Halil Öncen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haliloncen/html2pdf/issues"
+  },
+  "homepage": "https://github.com/haliloncen/html2pdf#readme",
+  "dependencies": {
+    "puppeteer": "^11.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "types": "dist/**/*"
+}
